@@ -2,10 +2,11 @@
 # Import libraries #
 ####################
 
+from altair.vegalite.v4.api import sequence
 import pandas as pd
 import streamlit as st
 import altair as alt
-from PIL import image
+from PIL import Image
 
 ####################
 # Page Title       #
@@ -20,5 +21,14 @@ st.write("""
 
 This app counts the nucleotide composition of query DNA!
 
+***
 """)
 
+####################
+# Input textbox    #
+####################
+
+# st.sidebar.header('Enter DNA sequence')
+st.header('Enter DNA sequence')
+
+sequence_input = ''
