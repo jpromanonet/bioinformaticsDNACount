@@ -31,7 +31,7 @@ This app counts the nucleotide composition of query DNA!
 # st.sidebar.header('Enter DNA sequence')
 st.header('Enter DNA sequence')
 
-sequence_input = ''
+sequence_input = 'DNA >\n'
 
 # sequence = st.sidebar.text_area("Sequence input", sequence_input, height=250)
 sequence = st.text_area("Sequence input", sequence_input, height=250)
