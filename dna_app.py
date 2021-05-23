@@ -40,3 +40,11 @@ sequence = sequence.splitlines()
 sequence = sequence[1:]
 # Concatenate list to string
 sequence = ''.join(sequence)
+
+st.write("""
+***
+""")
+
+## Prints the input DNA sequence
+st.header('INPUT (DNA QUERY)')
+sequence
