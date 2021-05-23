@@ -48,3 +48,6 @@ st.write("""
 ## Prints the input DNA sequence
 st.header('INPUT (DNA QUERY)')
 sequence
+
+## DNA nucleotide count
+st.header('OUTPUT (DNA Nucleotide Count)')
