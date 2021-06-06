@@ -51,3 +51,5 @@ sequence
 
 ## DNA nucleotide count
 st.header('OUTPUT (DNA Nucleotide Count)')
+
+### 1. Print dictionary
