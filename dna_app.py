@@ -89,3 +89,5 @@ p = alt.Chart(df.mark_bar().encode(
     x='nucleotide',
     y='count'
 ))
+
+p = p.properties()
