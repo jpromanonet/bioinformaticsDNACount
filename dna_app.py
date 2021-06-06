@@ -24,22 +24,20 @@ This app counts the nucleotide composition of query DNA!
 ***
 """)
 
-####################
-# Input textbox    #
-####################
+######################
+# Input Text Box
+######################
 
-# st.sidebar.header('Enter DNA sequence')
-st.header('Enter DNA sequence')
+st.sidebar.header('Enter DNA sequence')
 
-sequence_input = 'DNA >\n'
+sequence_input = ">DNA Query "
 
-# sequence = st.sidebar.text_area("Sequence input", sequence_input, height=250)
-sequence = st.text_area("Sequence input", sequence_input, height=250)
+sequence = st.sidebar.text_area("Sequence input", sequence_input, height=250)
 sequence = sequence.splitlines()
-# Skips the secuence name(first line)
-sequence = sequence[1:]
-# Concatenate list to string
-sequence = ''.join(sequence)
+# Skips the sequence name (first line)
+sequence = sequence[1:] 
+# Concatenates list to string
+sequence = ''.join(sequence) 
 
 st.write("""
 ***
@@ -85,10 +83,10 @@ st.write(df)
 
 ### 4. Display Bar Chart using Altair
 st.subheader('4. Display Bar chart')
-p = alt.Chart(df.mark_bar().encode(
+p = alt.Chart(df).mark_bar().encode(
     x = 'nucleotide',
     y = 'count'
-))
+)
 
 p = p.properties(
     # Controls width of bar
