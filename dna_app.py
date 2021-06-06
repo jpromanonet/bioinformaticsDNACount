@@ -86,8 +86,13 @@ st.write(df)
 ### 4. Display Bar Chart using Altair
 st.subheader('4. Display Bar chart')
 p = alt.Chart(df.mark_bar().encode(
-    x='nucleotide',
-    y='count'
+    x = 'nucleotide',
+    y = 'count'
 ))
 
-p = p.properties()
+p = p.properties(
+    # Controls width of bar
+    width = alt.Step(80)
+)
+
+st.write(p)
