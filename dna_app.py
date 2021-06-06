@@ -62,3 +62,8 @@ def DNA_nucleotide_count(seq):
         ('C', seq.count('C'))
         ])
     return d
+
+X = DNA_nucleotide_count(sequence)
+
+X_label = list(X)
+X_values = list(X.values())
