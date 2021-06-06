@@ -54,3 +54,7 @@ st.header('OUTPUT (DNA Nucleotide Count)')
 
 ### 1. Print dictionary
 st.subheader('1. Print Dictionary')
+def DNA_nucleotide_count(seq):
+    d = dict([
+        ('A', s)
+    ])
