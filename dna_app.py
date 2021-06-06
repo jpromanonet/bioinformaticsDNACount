@@ -82,3 +82,5 @@ df = df.rename({0: 'count'}, axis='columns')
 df.reset_index(inplace=True)
 df = df.rename(columns = {'index':'nucleotide'})
 st.write(df)
+
+### 4. Display Bar Chart using Altair
