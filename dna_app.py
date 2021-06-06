@@ -53,3 +53,4 @@ sequence
 st.header('OUTPUT (DNA Nucleotide Count)')
 
 ### 1. Print dictionary
+st.subheader('1. Print Dictionary')
