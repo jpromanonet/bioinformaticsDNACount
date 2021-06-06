@@ -74,3 +74,9 @@ st.write('There are ' + str(X['A']) + ' adenine (A)')
 st.write('There are ' + str(X['T']) + ' thymine (T)')
 st.write('There are ' + str(X['G']) + ' adenine (Guanine)')
 st.write('There are ' + str(X['C']) + ' adenine (Cytosine)')
+
+### 3. Display DataFrame
+st.subheader('3. Display DataFrame')
+df = pd.DataFrame.from_dict(X, orient='index')
+df = df.rename({0: 'count'}, axis='columns')
+df = 
