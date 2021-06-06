@@ -72,7 +72,7 @@ X_values = list(X.values())
 st.subheader('2. Print Text')
 st.write('There are ' + str(X['A']) + ' adenine (A)')
 st.write('There are ' + str(X['T']) + ' thymine (T)')
-st.write('There are ' + str(X['G']) + ' adenine (Guanine)')
+st.write('There are ' + str(X['G']) + ' guanine (G)')
 st.write('There are ' + str(X['C']) + ' adenine (Cytosine)')
 
 ### 3. Display DataFrame
