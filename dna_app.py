@@ -79,4 +79,5 @@ st.write('There are ' + str(X['C']) + ' adenine (Cytosine)')
 st.subheader('3. Display DataFrame')
 df = pd.DataFrame.from_dict(X, orient='index')
 df = df.rename({0: 'count'}, axis='columns')
-df = 
+df = df.rename(columns = {'index':'nucleotide'})
+st.write(df)
