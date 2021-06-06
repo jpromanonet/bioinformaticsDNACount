@@ -67,3 +67,8 @@ X = DNA_nucleotide_count(sequence)
 
 X_label = list(X)
 X_values = list(X.values())
+
+### 2. Print Text
+st.subheader('2. Print Text')
+st.write('There are ' +str(X['A']) + ' adenine (A)')
+
