@@ -84,3 +84,8 @@ df = df.rename(columns = {'index':'nucleotide'})
 st.write(df)
 
 ### 4. Display Bar Chart using Altair
+st.subheader('4. Display Bar chart')
+p = alt.Chart(df.mark_bar().encode(
+    x='nucleotide',
+    y='count'
+))
