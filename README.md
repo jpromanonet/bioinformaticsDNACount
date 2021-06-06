@@ -13,7 +13,7 @@ TGAACCCGATACATTATAACATCACCAGCATCGTGCCTGAAGCCATGCCTGCTGCCACCATGCCAGTCCT
 
 ## Development Journal
 
- 1. Install streamlit using:
+1. Install streamlit using:
 
    ```
    pip3 install streamlit
