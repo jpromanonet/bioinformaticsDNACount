@@ -73,7 +73,7 @@ st.subheader('2. Print Text')
 st.write('There are ' + str(X['A']) + ' adenine (A)')
 st.write('There are ' + str(X['T']) + ' thymine (T)')
 st.write('There are ' + str(X['G']) + ' guanine (G)')
-st.write('There are ' + str(X['C']) + ' adenine (Cytosine)')
+st.write('There are ' + str(X['C']) + ' cytosine (C)')
 
 ### 3. Display DataFrame
 st.subheader('3. Display DataFrame')
